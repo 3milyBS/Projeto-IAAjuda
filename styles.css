@@ -1,0 +1,110 @@
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(14, 13, 13);
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    border: 1px solid rgb(110, 161, 196);
+    border-bottom-style: none;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: FontTop;
+    src: url(fonts/Philosopher-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: FontIncrible ;
+    src: url(fonts/Saudagar.ttf);
+}
+
+h1 {
+    font-family: FontTop;
+    color: rgb(104, 153, 185);
+    font-size: 23px;
+
+}   
+
+div.Container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+    width: 1200px;
+    height: 400px;
+    filter: blur(5px);
+}
+
+div.Container2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 55px;
+    border: 1px solid rgb(104, 153, 185);
+    border-top-style: none;
+    border-bottom-style: none;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: FontIncrible;
+    color: white;
+    font-size: 40px;
+    text-shadow: black 4px 4px 6px;
+    letter-spacing: 5px;
+
+}
+
+div.Container4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+    margin-left: 90px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+div.Container5 {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin-top: 470px ;
+    margin-left: 90px;
+}
+
+h3 {
+    color: white;
+    font-family: FontIncrible;
+    font-size: 13px;
+    text-shadow: 4px 4px 6px black;
+    letter-spacing: 5px;
+}
+
+button {
+    background-color: black;
+    color:rgb(134, 178, 207);
+    border: solid 1px rgb(134, 178, 207);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+div.Container6 {
+    display: flex;
+    justify-content: start;
+}
+
+div.Container7 {
+    margin-right: 500px;
+}
